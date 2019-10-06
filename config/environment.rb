@@ -6,6 +6,7 @@ require_relative '../lib/concerns/findable'
 class Song
 
   attr_accessor :name, :artist, :genre
+  extend Concerns::Findable
 
   @@all = []
 
@@ -71,7 +72,7 @@ end
 class Artist 
   
   attr_accessor :name
-
+extend Concerns::Findable
   @@all = []
 
 
@@ -119,6 +120,7 @@ end
 class Genre
 
   attr_accessor :name
+  extend Concerns::Findable
   
   @@all = []
 
