@@ -1,6 +1,6 @@
 require 'bundler'
 Bundler.require
-require_relative '../lib/concerns/memorable'
+require_relative '../lib/concerns/findable'
 
 module Concerns::Findable
 end 
