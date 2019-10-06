@@ -1,7 +1,7 @@
 class Song
 
   attr_accessor :name, :artist, :genre
-  extend Findable::ClassMethods
+  extend Concerns::Findable
 
   @@all = []
 
