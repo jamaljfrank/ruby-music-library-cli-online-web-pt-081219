@@ -2,8 +2,6 @@ require 'bundler'
 Bundler.require
 require_relative '../lib/concerns/findable'
 
-module Concerns::Findable
-end 
 
 class Song
 
