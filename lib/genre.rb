@@ -1,7 +1,7 @@
 class Genre
 
   attr_accessor :name
-  extend Findable::ClassMethods
+  extend Concerns::Findable
   
   @@all = []
 
